@@ -1,0 +1,249 @@
+The Robotics and Electronics Club And Robotics Team of CSWCSS
+Internal Resource Exchange License (IREL)
+
+Version 1, Nov 2024
+
+Copyright (c) 2024 YH Choi
+
+Everyone in CSWCSS Robotics Team is permitted to copy and distribute verbatim copies of this license
+document, but changing it is not allowed.
+
+Preamble
+
+  Robotics Team members strives to construct technical pillars and laid foundations for the
+succession of this organization. One of the strategy is to adopt open-source materials to lower
+production cost. Another strategy is to restrict inheritance of resources to successors.
+
+  This license is made available to all CSWCSS Robotics Team members only, because all materials
+released under this license are restricted to internal exchange only, which would be detailed in
+section 1.
+
+  Materials are released under this license for two goals: (1) To maintain Robotics Team
+technological superiority and hence sustainability of robotics events in CSWCSS; (2) To protect
+Robotics Team members from facing legal charges against them for redistributing any materials to the
+external public without the awareness to comply with the original respective licenses of those
+materials.
+
+  Robotics Team is facing a declining amount of available resources, since the nature of robotics
+education does not easily visualize and quantize its outcomes. Robotics Team superiority is required
+to make robotics events more sustainable in this school.
+
+  Robotics Team uses a wide range of open-source materials. Most of them give a rather permissive
+license such as MIT or BSD or unlicensed, which restricts basically nothing except retaining the
+license notices and crediting appropriate owners and their respective copyrights. However, there are
+very strict copyleft licenses such as GPL that prohibits redistribution of embedded or modified
+materials without accompanying the source, but allows internal redistributions and modifications
+within an organization. By treating the Robotics Team as a student organization, such act would be
+allowed within the legally appropriate usage of the material. To protect Robotics Team members from
+legal charges due to accidental misuse of GPL or LGPL or other copyleft licensed materials, Robotics
+Team members are mostly denied to publish materials under this license.
+
+  It is very common for people to modify open-source materials but not disclosing their modified
+versions to the public, given that such materials are not distributed in a closed-source manner.
+A common example is that students copy and modify open-source code and use such code in their robots
+to join robotics commpetitions. These students do not distribute their modified version in a
+closed-source manner, so they need not disclose their modified versions to the public. This is
+allowed by open-source licenses including MIT, BSD, GPL and LGPL. This license requires Robotics Team
+members to exercise this confidential right for most of the time.
+
+  If you, as a Robotics Team member, do not wish to be bounded by the terms and conditions of this
+license, may develop your own version of the hardware and software involved, so you have
+copyright over your own creations, hence you could license your creations by your own choice. By
+doing so, you also get the most out of Robotics Team, because you need to take in all the technical
+knowledge to rebuild layers of abstractions and learn the techniques to efficiently obtain useful
+information from documentations and forum discussions and other kinds of human interaction.
+  This is exactly what the 9th Term did in 2021 - 2023, to completely rebuild hardware and software
+foundations and abstraction layers to cover the huge technical gap left by the discontinued support
+of both hardware and software from a China STEM kit providing company.
+  After years of development, we found out that Robotics Team don't have the time for each cohort to
+rebuild everything from scratch, and this is due to some very complex reasons involving Hong Kong
+education system, Robotics Team recruitment process, etc. not to be discussed here in detail. The
+foundations of a robotics system need not be greatly changed for each cohort, so abstractions and
+modularizations are implemented to reduce the workload for members on low-level development. Members
+could instead focus on the high-level logic implementations, so they could improve the algorithms
+hence performance efficiently without needing to take care of low-level debugging.
+  The 9th Term faced a lot of difficulties in building and securing this foundation. Low-level bugs
+always need to be resolved before proceeding on high-level development, which costed most of our
+development time, making it barely possible to tune a robot for better performance in a competition.
+We clearly understand that this is not an ideal development environment. The stressful atmosphere and
+a deadline countdown is highly discouraging. Therefore, we decided to free our successors from this
+pain by providing one more option for them to choose. They either use our prebuilt modules, or they
+build their own new ones.
+  Yet, we need to strike a balance between providing abstractions and encouraging members to learn.
+Robotics R&D is all about scheduling, division of labour, modularizations, team cooperations,
+adapting to new technologies. All of this must be challenging to a secondary school student, so feel
+free to put some pressure on yourself. Task management, stress management, team leadership, there is
+a lot for you to learn as a member, not just some bare metal technical details.
+
+                                    TERMS AND CONDITIONS
+
+0. Definitions
+
+"This License" refers to version 1 of the Robotics and Electronics Club And Robotics Team Internal
+Resource Exchange License.
+
+"A file" refers to a collection of data viewed as a minimum data storage unit by the file system,
+regardless of the file type and its permissions to be read, written and executed.
+
+"A folder" refers to a collection of files viewed by the file system. A folder is said to "contain"
+a file if that file belongs to the collection of the folder.
+
+"Materials under this license" refers to the folder containing this license, all of its files,
+folders and subfolders and their containing files, except those folders and subfolders containing
+another license and contents under those folders and subfolders. A file or folder inside the folder
+containing this license is automatically licensed under this license if it does not belong to the
+stated exception, even the file or folder does not contain an explicit declaration of its licensing
+information at the beginning of its contents.
+
+"Robotics Team", "the team" refers to CSWCSS Robotics Team.
+
+"Robotics Team member" refers to an official member of the Robotics Team who (1) has passed through
+rigorous team entry selections, and (2) is registered on the "Robotics Team member namelist" to be
+submitted to the Teacher Advisor of Robotics Team at the beginning of every CSWCSS academic year.
+This includes any previously active Robotics Team members who were not deprived of this title until
+their last day of study in CSWCSS. There are some rare cases: CSWCSS students who were once Robotics
+Team members, and withdrew from the team, both actively or passively, are no longer considered
+"Robotics Team members".
+
+"Active Robotics Team member" refers to a Robotics Team member who (1) is a CSWCSS student at that
+considered time period, and (2) engages in or has been engaged in robotics activities led by the
+Robotics Team.
+
+"External Public" refers to anyone not considered as a Robotics Team member. External public includes
+any schoolmates not being a member of the team, any opponents, any firms and companies.
+
+1. Basic Permissions
+
+a. Duplications
+You may download copies of any materials under this license or any parts of them, only as a Robotics
+Team member, and save and store these copies either online or physically, given that you have full
+control and management power over the entire copy at that memory location, and that the copy is
+inaccessible to the external public.
+
+b. Modifications
+You may modify copies of any materials under this license or any parts of them, only as a Robotics
+Team member, and save and store these modified copies either online or physically, given that you
+have full control and management power over the entire copy at that memory location, and that the
+copy is inaccessible to the external public. You may redistribute your modified copies under the
+terms of section 1c, and you may submit your modified copies under the terms of section 1d, and you
+may use your midified copies under the terms of section 1e.
+
+c. Internal Redistributions
+You may redistribute any materials under this license or any parts of them, only as a Robotics Team
+member, to another Robotics Team member, by any means, either online or physically, given that the
+means of redistribution does not leak any materials to anyone who is not a Robotics Team member.
+
+d. Submissions to Competition Judge Panel For Reviews
+You may submit any materials under this license or any parts of them, only as a Robotics Team member
+participating in a certain competition, to the judge panel of that competition for review, by means
+specified by the judge panel, either online or physically, given that the means of submission does
+not leak any materials or any parts of them to anyone other than the competition organisers. After
+submission, you should use your best efforts to ensure the competition organisers do not leak these
+materials or any parts of them to an unrelated third-party.
+
+e. Usage
+You may use any materials under this license or any parts of them, only as a Robotics Team member, to
+derive robotics products for Robotics Team usage only.
+
+2. Prohibited Actions
+
+a. Publications to External Public
+You may not publish any materials under this license or any parts of them to the external public as a
+Robotics Team member. If asked, you should state clearly that you could not provide any of these
+materials to them, as restricted by confidential policies of Robotics Team. You need not explain what
+kind of license or agreement was made.
+
+i. Exceptions
+Under some unpredictable situations not prescribed in this license, Robotics Team members may have
+emergency needs to publish or submit any materials under this license or any parts of them to whoever
+concerned, including the external public. This license grants permission to each active Robotics Team
+member to do so, under a specific condition: At least 2 other active Robotics Team members agree such
+act. Under such circumstances, section 1c, 1d and 2a are overriden by the exception stated in
+subsection 2ai. However, Robotics Team members should use his (or her) best efforts to prevent such
+materials falling into the hands of irrelevant persons.
+
+3. Disclosure of Materials Under This License
+
+a. Validity of This License Under Proper Disclosure
+For any materials under this license published or submitted under section 1d or 2ai, this license
+automatically voids, which means this license does not take any effect to the recipient. However,
+the recipient should be aware that some files and folders and subfolders and their files are under
+other licenses. These licenses are not covered by the scope of this license, so these licenses remain
+valid, and hence applicable to the recipient.
+
+b. Validity of This License Under Improper Disclosure
+For any materials under this license published or submitted outside the scope defined by section 1d
+and 2ai, you may not use any materials under this license or any parts of them as an external public.
+If you have doubts of the copyright owner distributing the wrong copy to you, please see section 3c.
+
+c. Dual-licensing
+For some reasons, the copyright owner of a material may wish to license his (or her) materials in
+more than one license. It is up to the owner's decision on when and how to publish which copy under
+which license and terms and conditions. You may contact the copyright owner to ask if him (or her)
+provides an alternative licensing option rather than this license, for the considered materials. He
+(or she) has the absolute freedom to whether or not provide you a copy of the materials under another
+license, subject to possibly other terms and conditions.
+
+4. Convey of Ideas
+
+Despite the lack of permission to display materials under this license or any parts of them to the
+external public, you may convey the ideas present in the materials to the external public at your
+discretion, given that such decision is made after thorough thought of whether this message would
+cause serious leakage of Robotics Team core technologies or expose security vulnerabilities to the
+external public.
+
+5. Agreement
+
+This license acts as a confidential agreement. However, you cannot manually sign this license or
+accept it. By using a material under this license or any parts of it, you automatically accept the
+terms and conditions of this license.
+
+6. Disclaimer of Warranty
+
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS”
+WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY
+AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST
+OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+7. Limitation of Liability
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR
+ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR
+DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE
+OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED
+INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH
+ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
+
+                                END OF TERMS AND CONDITIONS
+
+How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest
+possible use to the Robotics Team, the best way to achieve this is to
+make it Robotics Team software which every inheriting member can use
+and modify under these terms.
+
+To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is Robotics Team software: you can redistribute it and/or modify
+    it under the terms of the Internal Resource Exchange License as published by
+    the Robotics Team, either version 1 of the License, or (at your option) any
+    later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+    PARTICULAR PURPOSE.  See the Internal Resource Exchange License for more details.
+
+    You should have received a copy of the Internal Resource Exchange License along
+    with this program.  If not, see <https://www.github.com/CSWCSSRoboticsTeam/>.
+
+Also add information on how to contact you by electronic and paper mail.
